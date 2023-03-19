@@ -14,7 +14,7 @@ on:
 
 jobs:
   publish-readme-utils:
-    uses: magic-dev-tools/github-workflow-templates/.github/workflows/template-publish-npm-package.yaml
+    uses: magic-dev-tools/github-workflow-templates/.github/workflows/template-publish-npm-package.yaml@main
     with:
       packageDir: package-dir
       packageScope: "package-scope"
